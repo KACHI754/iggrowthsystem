@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Instagram Growth System – 33 prompts for small business owners</title>
+<meta name="description" content="33 ready-to-paste AI prompts that plan your Instagram content, so you stop staring at a blank caption box.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blue:#2330ff; --deep:#0f1450; --pink:#ffd3e6; --hot:#ff4f9a; --paper:#f7f6ff; --ink:#14163a;
+  --display:'Bricolage Grotesque','Arial Black',system-ui,sans-serif;
+  --body:'Figtree',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.6;font-size:17px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--hot);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+h1,h2,h3{font-family:var(--display);line-height:1.05;letter-spacing:-.02em}
+
+/* hero */
+.hero{background:var(--blue);color:#fff;padding:56px 0 72px}
+.hero .wrap{display:grid;gap:40px;align-items:center}
+@media(min-width:860px){.hero .wrap{grid-template-columns:1.05fr .95fr}}
+h1{font-size:clamp(40px,8vw,76px);font-weight:800}
+.sub{margin-top:18px;max-width:30em;font-size:19px;color:#e4e6ff}
+.btn{display:inline-block;margin-top:26px;background:var(--pink);color:var(--deep);font-weight:600;font-size:18px;padding:15px 26px;border-radius:999px;text-decoration:none;transition:transform .15s,background .15s}
+.btn:hover{transform:translateY(-2px);background:#fff}
+.note{margin-top:12px;font-size:14px;color:#c9ceff}
+
+/* live demo */
+.demo{background:#fff;color:var(--ink);border-radius:26px;padding:18px;box-shadow:0 0 0 6px rgba(255,255,255,.18)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.chip{font:inherit;font-size:15px;font-weight:600;border:2px solid var(--deep);background:#fff;color:var(--deep);padding:7px 14px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--deep);color:#fff}
+.prompt{background:var(--paper);border-radius:14px;padding:14px 16px;font-size:15.5px;min-height:112px;border-left:5px solid var(--blue)}
+.out{margin-top:12px;border-radius:14px;padding:14px 16px;background:var(--pink);font-size:15.5px;min-height:96px}
+.out b{display:block;font-family:var(--display);font-size:13px;margin-bottom:4px;color:var(--deep)}
+.cap{margin-top:10px;font-size:13px;color:#5b5e8a}
+.caret::after{content:"";display:inline-block;width:2px;height:1em;background:var(--blue);margin-left:2px;vertical-align:-2px;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+
+/* sections */
+section{padding:72px 0}
+h2{font-size:clamp(30px,5vw,46px);font-weight:800;max-width:15em}
+.grid{display:grid;gap:18px;margin-top:34px}
+@media(min-width:760px){.grid{grid-template-columns:repeat(3,1fr)}}
+.item{padding:22px 0;border-top:4px solid var(--blue)}
+.item:nth-child(2){border-color:var(--hot)}
+.item:nth-child(3){border-color:var(--deep)}
+.item h3{font-size:23px;font-weight:800}
+.item p{margin-top:8px;color:#3d3f6b}
+.for{background:var(--deep);color:#fff}
+.for ul{margin-top:28px;list-style:none;padding:0;display:grid;gap:12px;max-width:34em}
+.for li{padding-left:34px;position:relative;font-size:19px}
+.for li::before{content:"✓";position:absolute;left:0;top:0;color:var(--hot);font-weight:800}
+.cta{text-align:center}
+.cta h2{margin:0 auto}
+.cta .btn{background:var(--blue);color:#fff}
+.cta .btn:hover{background:var(--hot)}
+footer{padding:28px 0 44px;text-align:center;font-size:14px;color:#5b5e8a}
+
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.caret::after{animation:none}.btn{transition:none}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Never wonder what to post again.</h1>
+      <p class="sub">The AI Instagram Growth System is 33 prompts that turn ChatGPT or Claude into your content planner. Paste, answer a few questions, post.</p>
+      <a class="btn" href="https://YOUR-GUMROAD-LINK-HERE" id="buy">Get the system</a>
+      <p class="note">Instant download. Works with any AI chat tool.</p>
+    </div>
+
+    <div class="demo" aria-live="polite">
+      <div class="chips" role="group" aria-label="Try a prompt">
+        <button class="chip" aria-pressed="true">Hooks</button>
+        <button class="chip" aria-pressed="false">Captions</button>
+        <button class="chip" aria-pressed="false">Reel ideas</button>
+        <button class="chip" aria-pressed="false">Replies</button>
+      </div>
+      <div class="prompt" id="prompt"></div>
+      <div class="out" id="out"></div>
+      <p class="cap">Tap a tab to see a prompt run. Examples only.</p>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Built for people who run a business, not a content team.</h2>
+    <div class="grid">
+      <div class="item"><h3>Plan</h3><p>Prompts that map out a week of posts around what you sell and who buys it.</p></div>
+      <div class="item"><h3>Write</h3><p>Hooks, captions and calls to action in your own voice, ready to edit and post.</p></div>
+      <div class="item"><h3>Grow</h3><p>Prompts for replying to comments and DMs so followers turn into customers.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="for">
+  <div class="wrap">
+    <h2>This is for you if:</h2>
+    <ul>
+      <li>You run a small business and Instagram feels like a second job.</li>
+      <li>You post when you remember, then disappear for weeks.</li>
+      <li>You want to use AI but don't know what to ask it.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <h2>33 prompts. One download. Start posting today.</h2>
+    <a class="btn" href="https://YOUR-GUMROAD-LINK-HERE">Get the system</a>
+  </div>
+</section>
+
+<footer><div class="wrap">© <span id="yr"></span> AI Instagram Growth System</div></footer>
+
+<script>
+(function(){
+  var data=[
+    {p:"Write 5 Instagram hooks for a bakery that sells custom birthday cakes. Each under 12 words, no clichés.",
+     o:"1. Your kid's cake should not look like a grocery store cake.\n2. We turned a drawing from a 6-year-old into a cake.\n3. Three questions I ask before every birthday order."},
+    {p:"Write a caption for a photo of our new lavender candle. Friendly tone, 3 short lines, end with a question.",
+     o:"Meet Lavender Hour. Poured by hand, burns for 40 hours. What do you light after a long day?"},
+    {p:"Give me 3 Reel ideas I can film on my phone in under 2 minutes for a hair salon.",
+     o:"1. Before and after in 10 seconds.\n2. The one product I'd never use on curly hair.\n3. A day of bookings, sped up."},
+    {p:"Reply to a comment asking \"how much?\" on my tailoring post. Warm, short, move them to DMs.",
+     o:"Thanks for asking! Pricing depends on the fabric and fit. Send me a DM with what you have in mind and I'll quote you today."}
+  ];
+  var chips=document.querySelectorAll('.chip'),P=document.getElementById('prompt'),O=document.getElementById('out');
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches,timer;
+  function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/\n/g,'<br>')}
+  function show(i){
+    clearTimeout(timer);
+    chips.forEach(function(c,j){c.setAttribute('aria-pressed',j===i?'true':'false')});
+    var d=data[i];
+    O.innerHTML='';
+    if(reduce){P.textContent=d.p;O.innerHTML='<b>Result</b>'+esc(d.o);return}
+    var n=0;P.classList.add('caret');P.textContent='';
+    (function tick(){
+      n+=2;P.textContent=d.p.slice(0,n);
+      if(n<d.p.length){timer=setTimeout(tick,18)}
+      else{P.classList.remove('caret');timer=setTimeout(function(){O.innerHTML='<b>Result</b>'+esc(d.o)},350)}
+    })();
+  }
+  chips.forEach(function(c,i){c.addEventListener('click',function(){show(i)})});
+  document.getElementById('yr').textContent=new Date().getFullYear();
+  show(0);
+})();
+</script>
+</body>
+</html>
